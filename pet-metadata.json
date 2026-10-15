@@ -1,0 +1,32 @@
+{
+  "name": "希儿·芙乐艾",
+  "project": "希儿-虚拟桌面宠物",
+  "platform": "ChatGPT Work Pets",
+  "sprite_version": 1,
+  "spritesheet": "assets/seele-pet-spritesheet-v1.png",
+  "width": 1536,
+  "height": 1872,
+  "cell_width": 192,
+  "cell_height": 208,
+  "columns": 8,
+  "rows": 9,
+  "frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6
+  ],
+  "background": "transparent",
+  "thinking_sequence_zero_based": [
+    0,
+    0,
+    1,
+    1,
+    0
+  ]
+}
