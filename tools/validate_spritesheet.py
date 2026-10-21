@@ -1,8 +1,9 @@
 from pathlib import Path
 from PIL import Image
+import json
 
 ROOT = Path(__file__).resolve().parents[1]
-IMAGE = ROOT / "assets" / "seele-pet-spritesheet-v1.png"
+IMAGE = ROOT / json.loads((ROOT / "pet-metadata.json").read_text(encoding="utf-8"))["spritesheet"]
 EXPECTED_SIZE = (1536, 1872)
 CELL = (192, 208)
 FRAMES = (6, 8, 8, 4, 5, 8, 6, 6, 6)

@@ -1,0 +1,22 @@
+{
+  "target_pet_id": "pet_6acf7762b5a481918e6542df49f5b3e8",
+  "changed_row_zero_based": 8,
+  "client_state": "review",
+  "source_indices": [
+    0,
+    3,
+    6,
+    7,
+    3,
+    0
+  ],
+  "other_rows_pixel_identical": true,
+  "client_frame_durations_ms": [
+    150,
+    150,
+    150,
+    150,
+    150,
+    280
+  ]
+}

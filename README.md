@@ -4,17 +4,22 @@
 
 ## 预览
 
-- [完整精灵图预览](preview/spritesheet-overview.jpg)
+- [最新完整精灵图预览](preview/spritesheet-overview-v3.jpg)
+- [运行完成举牌动画](preview/completion-animation-v2.gif)
+- [清除黑线后的运行动画](preview/running-clean-v3.gif)
 - [思考动作 GIF 预览](preview/thinking-animation.gif)：为便于检查而按每帧 650 ms 播放，不代表 ChatGPT Work 的实际播放速度。
 - [思考动作帧带](preview/thinking-frames.png)
 
 ## 动作
 
-精灵图按从上到下排列 9 行：待机、眨眼、开心、休息、思考、工作、庆祝、行走、挥手。每行的帧数和用途见 [动作布局](docs/animation-layout.md)。思考行采用两种相近姿势并穿插重复帧，降低悬停时的帧间跳变；外轮廓最外侧的近白像素做了轻微透明化。
+2026-10-21 更新：运行成功时播放举牌“完成啦！”；运行动画六帧上下的独立黑线残片已清除。其他动作保持不变，当前资源已更新到用户正在使用的 Work Pets。
+
+本机客户端将运行动作映射到第 8 行 `running`，将成功通知映射到第 9 行 `review`。旧版素材名称与客户端状态名称不完全一致，详见 [动作布局](docs/animation-layout.md)。
 
 ## 精灵图规格
 
-- 文件：`assets/seele-pet-spritesheet-v1.png`
+- 当前文件：`assets/seele-pet-clean-running-v3.png`
+- 原始版本和举牌中间版本保留在 `assets/`；文件名 v2/v3 是素材修订号，不是精灵图格式版本。
 - PNG，RGBA 透明背景
 - 1536 × 1872 像素，v1，8 列 × 9 行
 - 单格 192 × 208 像素

@@ -1,0 +1,32 @@
+{
+  "row": 7,
+  "frames": [
+    {
+      "frame": 0,
+      "removed_pixels": 60
+    },
+    {
+      "frame": 1,
+      "removed_pixels": 53
+    },
+    {
+      "frame": 2,
+      "removed_pixels": 22
+    },
+    {
+      "frame": 3,
+      "removed_pixels": 11
+    },
+    {
+      "frame": 4,
+      "removed_pixels": 50
+    },
+    {
+      "frame": 5,
+      "removed_pixels": 60
+    }
+  ],
+  "removed_total": 256,
+  "character_region_unchanged": true,
+  "other_rows_unchanged": true
+}

@@ -3,7 +3,7 @@
   "project": "希儿-虚拟桌面宠物",
   "platform": "ChatGPT Work Pets",
   "sprite_version": 1,
-  "spritesheet": "assets/seele-pet-spritesheet-v1.png",
+  "spritesheet": "assets/seele-pet-clean-running-v3.png",
   "width": 1536,
   "height": 1872,
   "cell_width": 192,
@@ -28,5 +28,9 @@
     1,
     1,
     0
-  ]
+  ],
+  "asset_revision": 3,
+  "completion_state": "review",
+  "completion_row_zero_based": 8,
+  "running_row_zero_based": 7
 }
